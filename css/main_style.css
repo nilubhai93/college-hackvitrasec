@@ -387,7 +387,7 @@ nav {
     padding: 18px 40px;
     font-size: 16px;
     font-weight: 600;
-    background: linear-gradient(135deg, #3b82f6, #9333ea);
+    background: linear-gradient(135deg, #f63b3b, #9333ea);
     position: relative;
     cursor: pointer;
     border-radius: 50px;
@@ -429,7 +429,7 @@ nav {
 .hero-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
-    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    background: linear-gradient(135deg, #ee2c2c, #7c3aed);
 }
 
 .hero-btn:active {
