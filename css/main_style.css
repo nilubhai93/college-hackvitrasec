@@ -342,7 +342,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
- background-color: rgba(0, 0, 0, 0.7);
+ background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     border-radius: 10px;
 
@@ -417,10 +417,6 @@ nav {
     transform: translateY(-1px);
 }
 
-/* Fallback gradient background if image doesn't load */
-.header.fallback {
-    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 50%, #9333ea 100%);
-}
 
 
 
@@ -986,15 +982,13 @@ h1 {
         width: 160px;
         height: 160px;
     }
-
-
 }
 
 /* Mobile Large (481px to 767px) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
     .header {
-        height: 50vh;
-        min-height: 50vh;
+        height: 60vh;
+        min-height: 60vh;
     }
 
     .text-box {
@@ -1031,7 +1025,7 @@ h1 {
 /* Mobile Small (320px to 480px) */
 @media screen and (max-width: 480px) {
     .header {
-        height: 45vh;
+        height: 52vh;
         min-height: 45vh;
     }
 
@@ -1067,10 +1061,7 @@ h1 {
 
 /* Extra Small Mobile (below 320px) */
 @media screen and (max-width: 319px) {
-    .header {
-        height: 40vh;
-        min-height: 40vh;
-    }
+ 
 
     .text-box {
         width: 98%;
